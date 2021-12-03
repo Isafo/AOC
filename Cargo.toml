@@ -5,3 +5,4 @@ authors = ["Isafo <Isabelle.forsman@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+glam = "0.20"
