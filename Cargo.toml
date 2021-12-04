@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 glam = "0.20"
+bit_field = "0.10.1"
