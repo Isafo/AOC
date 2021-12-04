@@ -30,8 +30,6 @@ fn main() {
     let mut result_bit: u32 = 0;
     let mut index: u32 = 0;
     for data_it in diagnostics.data.iter() {
-        println!("{}", data_it);
-
         if *data_it > 0 {
             result_bit += 2u32.pow(index);
         }
